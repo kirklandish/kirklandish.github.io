@@ -1,0 +1,19 @@
+body {
+	background-color: #1e2735;
+}
+
+h1 {
+	font-family: "Futura", sans;
+	font-size: 60px;
+	position: relative;
+	left: 20px;
+	color: #a5a8ae;
+}
+
+p {
+	font-family: "Futura", sans;
+	font-size: 16px;
+	position: relative;
+	left: 20px;
+	color: #a5a8ae;
+}

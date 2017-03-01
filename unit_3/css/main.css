@@ -1,0 +1,65 @@
+body {
+	background: #e8e9ea;
+}
+
+header {
+	min-width: 100%;
+	background-image: url("front.jpg");
+	background-size: cover;
+}
+
+h1, p, li {
+	font-family: "Lucida Console", sans;
+}
+
+h1 {
+	padding: 40px;
+	font-size: 70px;
+	color: #fff;
+	letter-spacing: 5px;
+}
+
+#slogan {
+	font-size: 40px;
+	color: #fff;
+	padding: 0px 0px 40px 40px;
+}
+
+#main {
+	text-align: justify;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+	font-size: 28px;
+	color: #1e2735;
+}
+
+ul {
+	word-spacing: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: #1e2735;
+}
+
+a:hover {
+	color: #fff;
+}
+
+wrapper {
+	position: absolute;
+	min-width: 100%;
+	margin-left: 20px;
+}
+
+img {
+	display: inline-block;
+	height: 400px;
+	width: 400px;
+}
+

@@ -52,7 +52,7 @@ a {
 	height: 30px;
 	background: #1e2735;
 	color: #fff;
-	clear: both;
+	position: relative;
 }
 
 a:hover {

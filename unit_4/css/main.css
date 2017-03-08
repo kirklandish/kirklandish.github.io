@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono|Roboto+Slab');
+
+*	{ 
+	margin: 0; 
+	padding: 0; 
+	box-sizing: border-box; 
+}
+
+body {
+	background: rgba(232,233,234,.1);
+}
+
+nav {
+	background: rgb(30,39,53);
+	min-width: 100%;
+}
+
+header {
+	padding: 0px 40px 10px 40px;
+}
+
+h1, h2 {
+	font-family: 'Roboto Mono', monospace;
+	color: rgb(30,39,53);
+}
+
+h1 {
+	font-size: 60px;
+}
+
+h2 {
+	font-size: 40px;
+}
+
+p, li {
+	font-family: 'Roboto Slab', serif;
+	font-size: 18px;
+}
+
+p {
+	text-align: left;
+	margin-left: 20px;
+	margin-right: 20px;
+	color: rgb(30,39,53);
+	padding-bottom: 10px;
+}
+
+
+.mainimgs {
+	display: inline-block;
+	height: 400px;
+	width: 400px;
+}
+
+.imgwrap {
+	position: absolute;
+	min-width: 100%;
+	margin-left: 20px;
+} 
+
+.navlink {
+	text-decoration: none;
+	color: #e8e9ea;
+}
+
+.navlink:hover {
+	text-decoration: underline;
+}
+
+.navlist {
+	list-style: none;
+	display: inline-block;
+	word-spacing: 20px;
+	padding-left: 40px;
+	font-size: 30px;
+}
+
+#nav {
+	word-spacing: 20px;
+	padding-left: 40px;
+	list-style: none;
+	display: inline-block;
+	font-size: 28px;
+	color: #1e2735;
+}
+
+
+

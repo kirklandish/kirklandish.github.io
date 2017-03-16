@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono|Roboto+Slab');
+
+*	{ 
+	margin: 0; 
+	padding: 0; 
+	box-sizing: border-box; 
+}
+
+nav {
+	min-width: 100%;
+	background-color: #e8c66a;
+    border: 1px black solid;
+    padding: 20px;
+	word-spacing: 20px;
+	list-style: none;
+	display: inline-block;
+	font-size: 28px;
+	color: #1e2735;
+}
+
+header {
+	background-color: #ffed74;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+h1, h2 {
+	font-family: 'Roboto Mono', monospace;
+	color: rgb(30,39,53);
+}
+
+h1 {
+	font-size: 60px;
+}
+
+h2 {
+	font-size: 40px;
+}
+
+p, li {
+	font-family: 'Roboto Slab', serif;
+	font-size: 18px;
+	color: rgb(30,39,53);
+}
+
+li {
+	list-style: none;
+	text-transform: lowercase;
+}
+
+p {
+	text-align: left;
+	color: rgb(30,39,53);
+	max-width: 275px;
+}
+
+main {
+	min-width: 100%;
+}
+
+div {
+	background-color: #ffe2b8;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+article {
+	background-color: #e89c6c;
+    border: 1px black solid;
+    padding: 20px;
+    display: inline-block;
+    min-width: 45%;
+    height: 400px;
+}
+
+footer {
+	background-color: #ff957e;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+.navlink {
+	text-decoration: none;
+	color: #e8e9ea;
+}
+
+.navlink:hover {
+	text-decoration: underline;
+}
+
+.navlist {
+	display: inline-block;
+	word-spacing: 20px;
+	padding-left: 40px;
+	font-size: 30px;
+}
+
+#heroimg {
+	background-color: #ffe2b8;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+
+
+

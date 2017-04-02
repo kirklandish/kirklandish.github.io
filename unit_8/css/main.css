@@ -94,8 +94,8 @@ th {
 }
 
 .about {
-	width: 98%;
-	padding: 1%;
+	width: 96%;
+	padding: 2%;
 	color: #e9edf2;
 	text-align: justify;
 }
@@ -145,6 +145,7 @@ th {
 }
 
 @media only screen and (max-width: 520px) {
+	
 	body {
 		font-size: 14px;
 	}

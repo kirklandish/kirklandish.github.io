@@ -13,8 +13,8 @@ body {
 }	
 
 section {
-	width: 96%;
-	padding: 2em 2%;
+	width: 100%;
+	padding: 2em 0;
 }
 
 nav {
@@ -46,8 +46,8 @@ nav a:hover {
 
 div {
 	float: left;
-	width: 46%;
-	padding: 0 2%;
+	width: 42%;
+	padding: 0 4%;
 	color: #090c10;
 }
 

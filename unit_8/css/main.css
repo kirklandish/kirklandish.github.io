@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed|Roboto+Slab');
+
+*	{ 
+	margin: 0; 
+	padding: 0; 
+	box-sizing: border-box; 
+}
+
+body {
+	background: #c2ccdc;
+	font-size: 16px;
+	line-height: 2em;
+}	
+
+section {
+	width: 100%;
+	padding: 2em 0;
+}
+
+nav {
+	padding: 1em 0;
+}
+
+header nav {
+	float: right;
+}
+
+nav a {
+	color: #e9edf2;
+	font-size: 1.75em;
+	text-decoration: none;
+	padding: .5em;
+}
+
+footer {
+	background: #253041;
+}
+
+footer nav {
+	float: left;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+div {
+	float: left;
+	width: 46%;
+	padding: 0 2%;
+	color: #090c10;
+}
+
+h1 {
+	font-family: 'Roboto Condensed', monospace;
+	color: #e9edf2;
+	text-align: center;
+	font-size: 8em;
+	line-height: 4em;
+	clear: both;
+}
+
+h2, p, a, th {
+	font-family: 'Roboto Slab', serif;
+}
+
+h2 {
+	font-size: 2.25em;
+	margin-bottom: 1em;
+}
+
+p {
+	margin: 1em 0;
+}
+
+iframe {
+	width: 100%;
+}
+
+th {
+   	text-align: left;
+    padding: 0 .5em 1em .5em;
+}
+
+/*Classes and IDs*/
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.about {
+	width: 98%;
+	padding: 1%;
+	color: #e9edf2;
+	text-align: justify;
+}
+
+.left {
+	width: 21%;
+	margin-right: 4%;
+}
+
+.right {
+	width: 75%
+}
+
+#wrapper {
+	background: url(backgrounds/surface2.jpg), #253041;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#hero {
+	background: url(backgrounds/surface1.jpg), #253041;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 720px; 
+}
+
+/*media queries*/
+
+@media only screen and (max-width: 768px) {
+	body {
+		font-size: 14px;
+	}
+
+	#hero {
+		height: 550px;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	body {
+		font-size: 12px;
+	}
+
+	#hero {
+		height: 450px;
+	}
+}
+
+@media only screen and (max-width: 520px) {
+	body {
+		font-size: 12px;
+	}
+
+	#hero {
+		height: 400px;
+	}
+
+	div {
+		float: none;
+	}
+
+	h1 {
+		font-size: 6em;
+	}
+
+	.left, .right {
+		width: 98%;
+		padding: 1%;
+	}
+
+	header nav {
+		text-align: center;
+		float: none;
+	}
+
+	footer nav {
+		text-align: center;
+		float: none;
+	}
+
+	footer nav a {
+		display: block;
+	}
+}
+

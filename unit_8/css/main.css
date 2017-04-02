@@ -120,7 +120,7 @@ th {
 	background: url(backgrounds/surface1.jpg), #253041;
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 720px; 
+	max-height: 720px; 
 }
 
 /*media queries*/
@@ -131,17 +131,17 @@ th {
 	}
 
 	#hero {
-		height: 550px;
+		max-height: 550px;
 	}
 }
 
 @media only screen and (max-width: 600px) {
 	body {
-		font-size: 12px;
+		font-size: 14px;
 	}
 
 	#hero {
-		height: 450px;
+		max-height: 450px;
 	}
 }
 
@@ -152,7 +152,7 @@ th {
 	}
 
 	#hero {
-		height: 400px;
+		max-height: 400px;
 	}
 
 	div {

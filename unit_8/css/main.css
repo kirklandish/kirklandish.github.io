@@ -182,7 +182,7 @@ th {
 	}
 }
 
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 320px) {
 
 	body {
 		font-size: 12px;
@@ -197,7 +197,7 @@ th {
 	}
 
 	h1 {
-		font-size: 6em;
+		font-size: 4em;
 	}
 
 	.left, .right {

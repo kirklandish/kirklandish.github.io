@@ -8,7 +8,7 @@
 
 body {
 	background: #c2ccdc;
-	font-size: 16px;
+	font-size: 18px;
 	line-height: 2em;
 }	
 
@@ -119,52 +119,43 @@ th {
 	background: url(backgrounds/surface1.jpg), #253041;
 	background-repeat: no-repeat;
 	background-size: cover;
-	max-height: 720px; 
+	min-height: 720px; 
 }
 
 /*media queries*/
 
 @media only screen and (max-width: 768px) {
+
 	body {
-		font-size: 14px;
+		font-size: 16px;
 	}
 
 	#hero {
-		max-height: 550px;
+		min-height: 550px;
 	}
 }
 
-@media only screen and (max-width: 600px) {
-	body {
-		font-size: 14px;
-	}
-
-	#hero {
-		max-height: 450px;
-	}
-}
-
-@media only screen and (max-width: 520px) {
+@media only screen and (min-width: 420px) and (max-width: 600px) {
 
 	body {
-		font-size: 14px;
-	}
-
-	#hero {
-		max-height: 450px;
+		font-size: 16px;
 	}
 
 	div {
 		float: none;
 	}
 
-	h1 {
-		font-size: 6em;
-	}
-
 	.left, .right {
 		width: 98%;
 		padding: 0 1%;
+	}
+
+	.h1text {
+		display: none;
+	}
+
+	h2 {
+		text-align: center;
 	}
 
 	header nav {
@@ -180,29 +171,50 @@ th {
 	footer nav a {
 		display: block;
 	}
+
+	footer nav a {
+		display: block;
+	}
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 420px) {
 
 	body {
-		font-size: 10px;
+		font-size: 14px;
 	}
 
 	#hero {
-		max-height: 400px;
+		min-height: 450px;
+		width: 100%
+	}
+
+	h1 {
+		font-size: 6em;
+	}
+
+	h2 {
+		text-align: center;
 	}
 
 	div {
 		float: none;
 	}
 
-	h1 {
-		font-size: 4em;
+	.h1text {
+		display: none;
+	}
+
+	.table {
+		display: none;
 	}
 
 	.left, .right {
 		width: 98%;
 		padding: 0 1%;
+	}
+
+	table {
+		margin: 0 auto;
 	}
 
 	header nav {
@@ -213,6 +225,10 @@ th {
 	footer nav {
 		text-align: center;
 		float: none;
+	}
+
+	footer nav a {
+		display: block;
 	}
 
 	footer nav a {

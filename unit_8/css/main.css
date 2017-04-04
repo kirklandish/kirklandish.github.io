@@ -158,6 +158,15 @@ th {
 		text-align: center;
 	}
 
+	table {
+		margin: 0 auto;
+	}
+
+	div {
+		float: none;
+		margin: 0 auto;
+	}
+	
 	header nav {
 		text-align: center;
 		float: none;
@@ -198,6 +207,7 @@ th {
 
 	div {
 		float: none;
+		margin: 0 auto;
 	}
 
 	.h1text {
